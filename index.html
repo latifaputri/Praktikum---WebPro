@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Teknologi Komputer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <!-- Header -->
+<header id="beranda">
+    <h1>Workshop Teknologi Komputer</h1>
+    <p>Latifa Noviani Putri | 607022500014</p>
+</header>
+
+<!-- Navigasi -->
+<nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#artikel">Daftar Workshop</a>
+    <a href="#jadwal">Jadwal</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+    <main>
+        <!-- Artikel / Daftar Workshop -->
+        <article id="artikel">
+            <h2>Daftar Workshop</h2>
+            <div class="container">
+
+                <!-- Workshop HTML dan CSS -->
+                <div class="card">
+                    <div class="body-card">
+                        <h1>Workshop HTML dan CSS</h1>
+                        <p>
+                            Workshop ini akan mengajarkan dasar-dasar HTML dan CSS
+                            untuk membangun halaman web yang menarik dan responsif.
+                        </p>
+                        <h3>Durasi: 2 Hari</h3>
+                        <h4>Jumlah Peserta: 50 orang</h4>
+                    </div>
+                </div>
+
+                <!-- Workshop JavaScript -->
+                <div class="card">
+                    <div class="body-card">
+                        <h1>Workshop JavaScript</h1>
+                        <p>
+                            Workshop ini akan membahas konsep dasar JavaScript
+                            dan bagaimana menggunakannya untuk membuat interaksi
+                            dinamis pada halaman web.
+                        </p>
+                        <h3>Durasi: 3 Hari</h3>
+                        <h4>Jumlah Peserta: 30 orang</h4>
+                    </div>
+                </div>
+
+                <!-- Workshop Python -->
+                <div class="card">
+                    <div class="body-card">
+                        <h1>Workshop Python</h1>
+                        <p>
+                            Workshop ini akan memperkenalkan bahasa pemrograman
+                            Python dan bagaimana menggunakannya untuk pengembangan
+                            web dan analisis data.
+                        </p>
+                        <h3>Durasi: 4 Hari</h3>
+                        <h4>Jumlah Peserta: 40 orang</h4>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Jadwal -->
+        <section id="jadwal">
+            <h2>Jadwal Workshop</h2>
+            <table border="1" cellpadding="10">
+                <tr>
+                    <td>Nomor</td>
+                    <td>Nama Workshop</td>
+                    <td>Hari</td>
+                    <td>Waktu</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Workshop HTML dan CSS</td>
+                    <td>Senin</td>
+                    <td>09:00 - 12:00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Workshop JavaScript</td>
+                    <td>Selasa</td>
+                    <td>13:00 - 16:00</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Workshop Python</td>
+                    <td>Rabu</td>
+                    <td>09:00 - 12:00</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Form Kontak -->
+       <form id="formKontak">
+    <label for="nama">Nama</label>
+    <input type="text" id="nama" placeholder="Nama">
+    <p id="errNama" class="error"></p>
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="Email">
+    <p id="errEmail" class="error"></p>
+    <label for="pesan">Pesan</label>
+    <textarea id="pesan" rows="4" placeholder="Pesan"></textarea>
+    <p id="errPesan" class="error"></p>
+    <button type="submit">Kirim</button>
+</form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Hak Cipta &copy; 2026 Latifa Noviani Putri</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
